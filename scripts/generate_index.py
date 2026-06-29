@@ -3,7 +3,7 @@
 ESSO-10430 Package Index Generator (Dual-Domain Edition)
 
 Fetches cert data from cert repository via GitHub API,
-generates index.html and index.json for package.cavvy.ethernos.net
+generates index.html and index.json for caypak.ethernos.net
 
 Usage:
     CERT_REPO=ethernos/esso-certs python scripts/generate_index.py
@@ -23,7 +23,7 @@ PAGES_DIR.mkdir(exist_ok=True)
 
 CERT_REPO = os.getenv("CERT_REPO", "ethernos/esso-certs")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-CERT_BASE = "https://cert.cavvy.ethernos.net"
+CERT_BASE = "https://caycert.ethernos.net"
 
 
 def fetch_cert_files():
