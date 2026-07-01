@@ -1,6 +1,9 @@
 name: Generate Package Index
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 * * * *'   # 每小时同步 cert 仓库
   workflow_dispatch:
