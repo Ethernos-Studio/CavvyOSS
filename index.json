@@ -1,14 +1,14 @@
 {
   "esso_version": "1.0.0",
-  "generated_at": "2026-06-29T13:12:30Z",
+  "generated_at": "2026-07-01T12:58:45Z",
   "packages": [
     {
       "fingerprint": "54274058-c8bf-485b-a71e-d7bdee8b3b0f",
       "name": "caysdlib",
-      "latest_version": "0.1.0",
+      "latest_version": "0.1.1",
       "repository": "https://github.com/cavvy-lang/caysdlib",
-      "latest_commit": "a7ea8dcc48de6649f8101b64efa4403c6e04239d",
-      "latest_sha256": "ced1e7182690910be5a18c30f3d96f3cb3719004980ac9ee50cfff43f9ca4979",
+      "latest_commit": "5e439bc09c932d37fa441091987dd8857a3994d0",
+      "latest_sha256": "70f54140946de33eea3e664e103e069a50bab873e498b81875f1c5bb5c71171e",
       "cert_url": "https://caycert.ethernos.net/54274058-c8bf-485b-a71e-d7bdee8b3b0f.cert",
       "meta_url": "https://caycert.ethernos.net/54274058-c8bf-485b-a71e-d7bdee8b3b0f.json",
       "status": "active"
